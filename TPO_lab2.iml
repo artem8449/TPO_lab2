@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="au.com.bytecode:opencsv:2.4" level="project" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.5.2" level="project" />
+    <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-params:5.5.2" level="project" />
+    <orderEntry type="library" name="org.mockito:mockito-core:3.5.13" level="project" />
   </component>
 </module>

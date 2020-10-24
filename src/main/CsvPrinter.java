@@ -55,7 +55,6 @@ public class CsvPrinter {
         TrigonometryFunctions trigonometryFunctions = new TrigonometryFunctions(sinDecomposer);
         LogNFunctions logNFunctions = new LogNFunctions(logDecomposer);
 
-      //  EquationSystem equationSystem = new EquationSystem(logDecomposer, trigonometryFunctions, logNFunctions);
         EquationSystem equationSystem = new EquationSystem(trigonometryFunctions, logNFunctions);
 
         print(sinDecomposer::calculate, 0.1, -7, 7, "D:\\testingPO\\lab2csv\\sinDecomposer.csv");

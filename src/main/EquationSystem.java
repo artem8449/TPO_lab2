@@ -1,24 +1,15 @@
 package main;
 
-import main.Decomposers.LogDecomposer;
 import main.Functions.LogNFunctions;
 import main.Functions.TrigonometryFunctions;
 
 public class EquationSystem {
     private final LogNFunctions logN;
     private final TrigonometryFunctions trigonometry;
- //   private final LogDecomposer log;
-
-  /*  public EquationSystem(LogDecomposer log, TrigonometryFunctions trigonometry, LogNFunctions logN) {
-        this.logN = logN;
-        this.trigonometry = trigonometry;
-   //     this.log = log;
-    }*/
 
     public EquationSystem(TrigonometryFunctions trigonometry, LogNFunctions logN) {
         this.logN = logN;
         this.trigonometry = trigonometry;
-        //     this.log = log;
     }
 
     public double calculate(double x, double eps){
@@ -31,7 +22,6 @@ public class EquationSystem {
         double log5 = logN.log(x, eps, 5);
         double log10 = logN.log(x, eps, 10);
         double log = logN.log(x, eps, Math.E);
-        //this.log.calculate(x, eps);
         double denominator = (log2 + log10) - (log - (log - log5));
         return (denominator == 0 || log5 == 0) ? Double.NaN : (((Math.pow((Math.pow((log3 + log3), 3)), 2)) / denominator) - ((log / log5) * (Math.pow((Math.pow(log10, 3)), 2))));
     }

@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3776bd5b-e533-4e56-aba0-c20677523765" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO_lab2/main/CsvPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO_lab2/main/CsvPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO_lab2/main/EquationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO_lab2/main/EquationSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CsvPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CsvPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EquationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EquationSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/EquationSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/EquationSystemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +39,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.EquationSystemTest">
@@ -167,7 +163,7 @@
       <updated>1603463987167</updated>
       <workItem from="1603463990694" duration="9772000" />
       <workItem from="1603528006629" duration="4544000" />
-      <workItem from="1603535989270" duration="19261000" />
+      <workItem from="1603535989270" duration="22633000" />
     </task>
     <servers />
   </component>
@@ -179,22 +175,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603542348846" />
-    <state width="1877" height="188" key="GridCell.Tab.0.bottom" timestamp="1603561530591">
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1603565217408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603561530591" />
-    <state width="1877" height="188" key="GridCell.Tab.0.center" timestamp="1603561530591">
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603565217408" />
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom" timestamp="1603561988642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603561530591" />
-    <state width="1877" height="188" key="GridCell.Tab.0.left" timestamp="1603561530591">
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603561988642" />
+    <state width="1877" height="188" key="GridCell.Tab.0.center" timestamp="1603561988642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603561530591" />
-    <state width="1877" height="188" key="GridCell.Tab.0.right" timestamp="1603561530591">
+    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603561988642" />
+    <state width="1877" height="188" key="GridCell.Tab.0.left" timestamp="1603561988642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603561530591" />
+    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603561988642" />
+    <state width="1877" height="188" key="GridCell.Tab.0.right" timestamp="1603561988642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603561988642" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1603565240176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603565240176" />
   </component>
   <component name="masterDetails">
     <states>

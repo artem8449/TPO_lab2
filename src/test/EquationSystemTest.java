@@ -5,8 +5,6 @@ import main.Functions.LogNFunctions;
 
 import main.Functions.TrigonometryFunctions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.jupiter.api.Test;
 
 import static java.lang.Math.log;

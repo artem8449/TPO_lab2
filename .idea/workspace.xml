@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3776bd5b-e533-4e56-aba0-c20677523765" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO_lab2/main/CsvPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO_lab2/main/CsvPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO_lab2/test/LogNFunctionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO_lab2/test/LogNFunctionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CsvPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CsvPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LogNFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LogNFunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TrigonometryFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TrigonometryFunctionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="976" />
-    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1jJxQLf1DD60nzGYnHg7TLmXt2o" />
   <component name="ProjectViewState">
@@ -51,7 +42,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.LogNFunctionsTest.log5InvalidValuesTest">
+  <component name="RunManager" selected="JUnit.TrigonometryFunctionsTest.secInvalidTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,53 +50,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogNFunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LogNFunctionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogNFunctionsTest.log2ValidValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LogNFunctionsTest" />
-      <option name="METHOD_NAME" value="log2ValidValuesTest(double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogNFunctionsTest.log3InvalidValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TPO_lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LogNFunctionsTest" />
-      <option name="METHOD_NAME" value="log3InvalidValuesTest(double)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,20 +86,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrigonometryFunctionsTest.cosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TrigonometryFunctionsTest" />
+      <option name="METHOD_NAME" value="cosTest(double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryFunctionsTest.secInvalidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TrigonometryFunctionsTest" />
+      <option name="METHOD_NAME" value="secInvalidTest(double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigonometryFunctionsTest.secValidValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TPO_lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TrigonometryFunctionsTest" />
+      <option name="METHOD_NAME" value="secValidValuesTest(double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.LogNFunctionsTest" />
-      <item itemvalue="JUnit.LogNFunctionsTest.log3InvalidValuesTest" />
-      <item itemvalue="JUnit.LogNFunctionsTest.log2ValidValuesTest" />
       <item itemvalue="JUnit.LogNFunctionsTest.log5ValidValuesTest" />
       <item itemvalue="JUnit.LogNFunctionsTest.log5InvalidValuesTest" />
+      <item itemvalue="JUnit.TrigonometryFunctionsTest.cosTest" />
+      <item itemvalue="JUnit.TrigonometryFunctionsTest.secValidValuesTest" />
+      <item itemvalue="JUnit.TrigonometryFunctionsTest.secInvalidTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrigonometryFunctionsTest.secInvalidTest" />
+        <item itemvalue="JUnit.TrigonometryFunctionsTest.secValidValuesTest" />
+        <item itemvalue="JUnit.TrigonometryFunctionsTest.cosTest" />
         <item itemvalue="JUnit.LogNFunctionsTest.log5InvalidValuesTest" />
         <item itemvalue="JUnit.LogNFunctionsTest.log5ValidValuesTest" />
-        <item itemvalue="JUnit.LogNFunctionsTest" />
-        <item itemvalue="JUnit.LogNFunctionsTest.log2ValidValuesTest" />
-        <item itemvalue="JUnit.LogNFunctionsTest.log3InvalidValuesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +164,7 @@
       <updated>1603463987167</updated>
       <workItem from="1603463990694" duration="9772000" />
       <workItem from="1603528006629" duration="4544000" />
-      <workItem from="1603535989270" duration="2390000" />
+      <workItem from="1603535989270" duration="4966000" />
     </task>
     <servers />
   </component>
@@ -180,22 +172,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="200" key="GridCell.Tab.0.bottom" timestamp="1603538388799">
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603542348846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603538388799" />
-    <state width="1877" height="200" key="GridCell.Tab.0.center" timestamp="1603538388799">
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603542348846" />
+    <state width="1036" height="200" key="GridCell.Tab.0.bottom" timestamp="1603542973869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603538388799" />
-    <state width="1877" height="200" key="GridCell.Tab.0.left" timestamp="1603538388799">
+    <state width="1036" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603542973869" />
+    <state width="1036" height="200" key="GridCell.Tab.0.center" timestamp="1603542973869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603538388799" />
-    <state width="1877" height="200" key="GridCell.Tab.0.right" timestamp="1603538388799">
+    <state width="1036" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603542973869" />
+    <state width="1036" height="200" key="GridCell.Tab.0.left" timestamp="1603542973869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603538388799" />
+    <state width="1036" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603542973869" />
+    <state width="1036" height="200" key="GridCell.Tab.0.right" timestamp="1603542973869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1036" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603542973869" />
   </component>
   <component name="masterDetails">
     <states>

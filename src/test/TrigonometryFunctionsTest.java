@@ -27,8 +27,8 @@ public class TrigonometryFunctionsTest {
         when(sinMock.calculate(PI, EPSILON)).thenReturn(0.0);
         when(sinMock.calculate(PI * 5 / 4, EPSILON)).thenReturn(-sqrt(2) / 2);
         when(sinMock.calculate(PI * 3 / 2, EPSILON)).thenReturn(-1.0);
-        when(sinMock.calculate(PI / 4 + PI/2, EPSILON)).thenReturn(0.707106);
-        when(sinMock.calculate(PI * 5 / 4 + PI/2, EPSILON)).thenReturn(-0.707106);
+        when(sinMock.calculate(PI / 4 + PI/2, EPSILON)).thenReturn(1/sqrt(2));
+        when(sinMock.calculate(PI * 7 / 4, EPSILON)).thenReturn(-sqrt(2) / 2);
 
         trigonometryFunctions = new TrigonometryFunctions(sinMock);
     }

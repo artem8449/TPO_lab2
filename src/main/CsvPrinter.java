@@ -8,7 +8,6 @@ import main.Functions.TrigonometryFunctions;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -18,7 +17,7 @@ public class CsvPrinter {
         double calculate(double x, double eps);
     }
 
-    private static TreeMap<Double, Double> getValues(FunctionInterface method, double step, double startAt, double endAt) throws InvocationTargetException, IllegalAccessException {
+    private static TreeMap<Double, Double> getValues(FunctionInterface method, double step, double startAt, double endAt){
         TreeMap<Double, Double> values = new TreeMap<>();
         double EPS = 0.0001;
         for (double i = startAt; i <= endAt; i += step)
@@ -28,7 +27,7 @@ public class CsvPrinter {
     }
 
     public static void print(FunctionInterface method, double step, double startAt, double endAt, String fileName){
-        try {
+
             TreeMap<Double, Double> values = getValues(method, step, startAt, endAt);
 
             File file = new File(fileName);
@@ -46,9 +45,6 @@ public class CsvPrinter {
                 csvWriter.close();
             } catch (Exception e) {
                 e.printStackTrace();
-            }
-        } catch (IllegalAccessException | InvocationTargetException e) {
-            e.printStackTrace();
         }
     }
 

@@ -13,6 +13,7 @@ public class LogNFunctions {
     public double log(double x, double eps, double base){
         double lnBase = log.calculate(base, eps);
         return lnBase == 0 ? Double.NaN : log.calculate(x, eps) / lnBase;
+
     }
 
 }
